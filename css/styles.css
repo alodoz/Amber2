@@ -1,0 +1,61 @@
+/* font-family: 'Maven Pro', sans-serif;
+
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Nunito', sans-serif;
+
+font-family: 'Open Sans', sans-serif;
+
+font-family: 'Quattrocento', serif;
+
+font-family: 'Sriracha', cursive; */
+
+html {
+  scroll-behavior: smooth;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(74, 77, 227, 1) 100%
+  );
+}
+
+body {
+  margin: auto;
+  font-family: "alliance", sans-serif;
+  max-width: 375px;
+}
+
+@font-face {
+  font-family: "alliance";
+  font-style: regular;
+  src: url("../fonts/alliance-regular.otf");
+}
+
+@font-face {
+  font-family: "alliance";
+  font-style: semibold;
+  src: url("../fonts/alliance-semibold.otf");
+}
+
+header img {
+  width: 70px;
+}
+
+header .logo {
+  display: flex;
+  justify-content: center;
+}
+
+header a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  flex-direction: row;
+}
+
+.navbar {
+  display: flex;
+}
