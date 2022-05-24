@@ -24,22 +24,39 @@ body {
   margin: auto;
   font-family: "alliance", sans-serif;
   max-width: 375px;
+  color: white;
+}
+
+p,
+a {
+  font-weight: 100;
+}
+
+p {
+  margin: 0 30px;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 200;
+  margin: 30px;
 }
 
 @font-face {
   font-family: "alliance";
-  font-style: regular;
+  font-style: 100;
   src: url("../fonts/alliance-regular.otf");
 }
 
 @font-face {
   font-family: "alliance";
-  font-style: semibold;
+  font-style: 200;
   src: url("../fonts/alliance-semibold.otf");
 }
 
 header img {
   width: 70px;
+  margin: 15px 0 15px 0;
 }
 
 header .logo {
@@ -49,13 +66,70 @@ header .logo {
 
 header a {
   display: flex;
-  justify-content: center;
   text-decoration: none;
   color: white;
-  margin-top: 10px;
-  flex-direction: row;
+  margin: 10px;
 }
 
 .navbar {
   display: flex;
+  justify-content: center;
+}
+
+.container .products-rocket {
+  display: flex;
+}
+
+.container .products-button,
+.rocket-launch {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .products-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .button-reseller {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  height: 90px;
+  width: 30px;
+  background: rgb(0, 166, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 166, 255, 1) 0%,
+    rgba(0, 54, 255, 1) 100%
+  );
+
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+.card img {
+  background-size: contain;
+}
+
+.price-button {
+  width: 40px;
+  height: 40px;
+  margin: 0 20px 0 0;
+}
+
+.arrow-button {
+  height: 20px;
+  width: 20px;
+  margin: 10px 0 0 0;
+}
+
+.card-background {
+  background-color: white;
+  margin: 70px 0 0 35px;
+  padding: 10px;
+  border-radius: 12px;
+  width: 80px;
 }
