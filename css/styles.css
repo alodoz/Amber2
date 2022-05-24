@@ -14,9 +14,9 @@ html {
   scroll-behavior: smooth;
   background: rgb(0, 0, 0);
   background: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(74, 77, 227, 1) 100%
+    360deg,
+    rgba(0, 37, 182, 1) 0%,
+    rgba(0, 0, 0, 1) 99%
   );
 }
 
@@ -164,4 +164,38 @@ header a {
 
 .reseller-title {
   margin: 70px 25px 30px 30px;
+}
+
+.earbuds {
+  height: 160px;
+}
+
+.earbuds-paragraph {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  margin: 0 30px;
+  border-radius: 20px;
+}
+
+.earbuds-price {
+  height: 40px;
+  margin: 43px 0 15px 0;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.earbuds-reseller {
+  height: 40px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.launch {
+  margin: 0 0 0 110px;
+  height: 400px;
 }
