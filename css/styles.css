@@ -76,8 +76,10 @@ header a {
   justify-content: center;
 }
 
-.container .products-rocket {
+.products-rocket {
   display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .container .products-button,
@@ -116,14 +118,12 @@ header a {
 
 .price-button {
   width: 40px;
-  height: 40px;
-  margin: 0 20px 0 0;
+  margin: 7px 20px 0 0;
 }
 
 .arrow-button {
-  height: 20px;
   width: 20px;
-  margin: 10px 0 0 0;
+  margin: 7px 0 0 0;
 }
 
 .card-background {
@@ -132,4 +132,36 @@ header a {
   padding: 10px;
   border-radius: 12px;
   width: 80px;
+}
+
+.rocket-launch {
+  width: 50px;
+  height: 550px;
+  margin: 40px 0 0 18px;
+}
+
+.reseller-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.reseller-button img {
+  width: 50px;
+  margin: 0 0 70px 0;
+}
+
+.contact-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contact-button img {
+  width: 50px;
+  margin: 0 0 70px 0;
+}
+
+.reseller-title {
+  margin: 70px 25px 30px 30px;
 }
